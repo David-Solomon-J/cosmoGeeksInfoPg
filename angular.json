@@ -89,14 +89,17 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "bootstrap/dist/css/bootstrap.min.css",
+              "mdb-angular-ui-kit/assets/scss/mdb.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "/node_modules/jquery/dist/jquery.min.js",
+              "/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "/node_modules/postcss-loader/dist/cjs.js"
+            ]
           }
         }
       }
