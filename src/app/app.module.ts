@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home-page/home-page.component';
@@ -10,7 +11,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     HomePageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MdbCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
