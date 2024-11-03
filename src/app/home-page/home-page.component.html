@@ -1,10 +1,81 @@
-<div class="container">
+<div class="container flex">
+<div class="carousel-inner rounded-5 shadow-4-strong mt-5">
+  <mdb-carousel [controls]="false" [indicators]="false" [animation]="'fade'">
+    <mdb-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/041.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>CosmoGeeks</h1>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </mdb-carousel-item>
 
+    <mdb-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>CosmoGeeks</h1>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </mdb-carousel-item>
 
+    <mdb-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/042.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>CosmoGeeks</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </mdb-carousel-item>
 
+    <mdb-carousel-item>
+      <img
+        src="https://mdbcdn.b-cdn.net/img/new/slides/043.jpg"
+        class="d-block w-100"
+        alt="..."
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h1>CosmoGeeks</h1>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
 </div>
 
-<footer class="bg-body-tertiary text-center fixed-bottom">
+    <div class="row mt-5">
+      <div class="col-lg-6">
+        <div class="card mb-4">
+          <div class="card-body text-center">
+            <img src="../../assets/images/cosmoGeekImg1.png" alt="avatar"
+              class="rounded-circle img-fluid" style="width: 150px;  border: whitesmoke;">
+            <h5 class="my-3">Stacey Jones</h5>
+            <p class="text-muted mb-1">Hair Stylist</p>
+            <p class="text-muted mb-4">Jacksonville, FL</p>
+            <div class="d-flex justify-content-center mb-2">
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary">Follow</button>
+              <button  type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-primary ms-1">Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-left mt-5">
+        <figure class="lead">
+            <h4><p> My goal as a Stylist is that I bring <i>care and beauty</i> to every person I work with! </p></h4>
+            <br>
+        </figure>
+      </div>
+    </div>
+
+<footer class="bg-body text-center">
   <div class="container p-4 pb-0">
     <section class="mb-4">
       <!-- Facebook -->
@@ -49,4 +120,7 @@
     </section>
   </div>
 </footer>
+
+</div>
+
 
